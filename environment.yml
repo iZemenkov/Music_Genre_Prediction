@@ -1,0 +1,23 @@
+name: music_genre_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - ipython
+  - ipykernel
+  - pandas
+  - numpy=1.25.2        # совместимая версия с CatBoost
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - plotly
+  - streamlit
+  - fastapi
+  - uvicorn
+  - joblib
+  - tqdm
+  - pip
+  - pip:
+      - catboost
+      - pygwalker
